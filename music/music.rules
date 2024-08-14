@@ -1,0 +1,9 @@
+RootTrack
+{
+	Type = FSM
+	DebugName = "Root"
+	IntroTracks
+	[
+		&<st_cluster1.rules>
+	]
+}

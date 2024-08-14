@@ -1,0 +1,26 @@
+
+ID = "st-afa.004b_starfleet_music"
+Name = "ST-AFA - Music Addon"
+Version = 0.1
+CompatibleGameVersions = ["0.26.2d", "0.27.0e"]
+ModifiesGameplay = false
+ModifiesMultiplayer = true
+Author = "ST-AFA Mod-Team"
+Logo = logo.png
+
+Description = "For full details please see Steam Workshop. Adds Star Trek music to your Cosmoteer installs set of music."
+
+Actions
+[
+	/* ****** MUSIC ****** */
+	{
+		Action = AddMany
+
+		AddTo = "<music/music.rules>/RootTrack/IntroTracks"
+
+		ManyToAdd
+		[
+			&<music/st_cluster1.rules>
+		]
+	}
+]
